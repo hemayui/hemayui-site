@@ -213,14 +213,7 @@ p {
     color: #E0E0E0;
 }
 
-.profile-image {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-   /* border: 5px solid #6200EE; /* Light purple border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Soft shadow for depth */
-}
+
 .logo {
     margin-right: 30px; /* Adjust the value as needed */
 }
@@ -261,26 +254,6 @@ h2 {
     color: #333;
 }
 
-/* Typing Effect */
-#typing-text {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 4px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
-    padding-right: 5px;
-    animation: blink-caret 0.75s step-end infinite;
-    font-size: 2em;
-    color: #6200EE;
-}
-
-
-
-/* Cursor Blink Animation */
-@keyframes blink-caret {
-    50% {
-        border-color: transparent; /* Makes the cursor disappear */
-    }
-}
 
 
 /* Skills Section */
@@ -324,9 +297,6 @@ h2 {
         font-size: 14px;
     }
 
-#typing-text {
-    font-size: 1em; /* Ridurre la dimensione del font su schermi piccoli */
-}
 
 header {
     margin:auto;

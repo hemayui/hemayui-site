@@ -132,11 +132,11 @@ body {
 
 
 .light-mode .navbar {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .light-mode section {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(3px); /* Blurred background effect */
     -webkit-backdrop-filter: blur(3px); /* Safari support */
    
